@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="name"
+        android:layout_margin="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/joli_etoile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/btn_star"
+        app:layout_constraintLeft_toRightOf="@+id/tv_firstname"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="50dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
